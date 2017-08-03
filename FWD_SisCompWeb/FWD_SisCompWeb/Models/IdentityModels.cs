@@ -21,7 +21,7 @@ namespace FWD_SisCompWeb.Models
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
         public ApplicationDbContext()
-            : base("DefaultConnection", throwIfV1Schema: false)
+            : base("SisCompWeb_db", throwIfV1Schema: false)
         {
         }
 

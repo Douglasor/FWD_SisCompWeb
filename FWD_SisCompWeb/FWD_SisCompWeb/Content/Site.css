@@ -22,3 +22,9 @@ select,
 textarea {
     max-width: 280px;
 }
+
+#mydivFooter {
+    background:#00ff90;
+    padding: 40px;
+    margin: 50px;
+}

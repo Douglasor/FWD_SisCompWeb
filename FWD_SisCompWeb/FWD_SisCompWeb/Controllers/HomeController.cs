@@ -15,14 +15,14 @@ namespace FWD_SisCompWeb.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "A sua página de descrição da aplicação.";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Sua página de contato.";
 
             return View();
         }
